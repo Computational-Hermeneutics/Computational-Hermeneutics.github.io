@@ -8,9 +8,9 @@
 // close-reading register, and manuscript lapis for the collation register.
 
 :root {
-  --ch-bg: #f4ecd6;                          /* aged parchment */
-  --ch-surface: #fbf6e9;                     /* fresh page */
-  --ch-surface-alt: #eadfc2;                 /* darker parchment, panels and code */
+  --ch-bg: #fcfbf7;                          /* near-white, faint warmth */
+  --ch-surface: #ffffff;                     /* clean page */
+  --ch-surface-alt: #f4f0e4;                 /* light parchment, panels and code */
   --ch-text: #2a2118;                        /* sepia-black ink */
   --ch-muted: #6f6149;                       /* faded brown ink */
   --ch-blue: #7c2128;                        /* rubric oxblood: brand and links */
@@ -18,7 +18,7 @@
   --ch-blue-underline: rgba(124, 33, 40, 0.3);
   --ch-sand: #9c7c34;                        /* antique gold, close-reading register */
   --ch-burgundy: #2f4a6b;                    /* manuscript lapis, collation register */
-  --ch-rule: #d8c6a0;                        /* parchment rule */
+  --ch-rule: #e0d6bf;                        /* soft parchment rule */
   --ch-card-shadow: 0 2px 12px rgba(80, 50, 20, 0.10);
 }
 

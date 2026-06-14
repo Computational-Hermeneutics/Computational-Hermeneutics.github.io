@@ -2,8 +2,8 @@
   <title>Computational Hermeneutics. Instruments for computational close reading.</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#f7f0dd"/>
-      <stop offset="100%" stop-color="#eadfc2"/>
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f4f0e4"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
