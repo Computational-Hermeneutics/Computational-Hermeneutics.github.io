@@ -62,7 +62,7 @@ graph TB
 
 ## Theoretical background
 
-The wager of Computational Hermeneutics is that the interpretation of computational artefacts is continuous with, rather than separate from, the long traditions of textual scholarship and critical theory. Critical code studies argued that software deserves the same close reading we give literature; textual criticism developed the techniques for tracking how a text changes across its witnesses; hermeneutics gave an account of how understanding moves between part and whole. These traditions have rarely been combined, and they have almost never been instrumented.
+Computational Hermeneutics is a set of methods that work on the principle that the interpretation of computational artefacts is continuous with, rather than separate from, the long traditions of textual scholarship and critical theory. Critical code studies argued that software deserves the same close reading we give literature; textual criticism developed the techniques for tracking how a text changes across its witnesses; hermeneutics gave an account of how understanding moves between part and whole. These traditions have rarely been combined, and they have almost never been instrumented.
 
 The deficit is one of tools as much as of theory. It is one thing to assert that a fork enacts an interpretation, that a refactoring is an emendation, that a generated text has a textual condition; it is another to be able to show it, line by line, witness against witness, with an apparatus that records every decision. The instruments here are built to close that gap, to make the apparatus of philology operable on computational material, and to keep interpretation and attestation bound together so that no reading is offered without the evidence that supports it.
 
