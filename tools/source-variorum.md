@@ -30,9 +30,12 @@ Versions of a text, whether commits of source code or witnesses of a poem, diffe
 ## What it shows
 
 - A three-column **braid** (Witness A · ribbon gutter · Witness B) with Bezier ribbons whose thickness scales with the length of the matched block.
-- Variant typing: **match**, **substitution**, **addition**, **deletion**, **transposition** (moved text), and near-identical **variant** (fuzzy match).
-- An auto-generated **critical apparatus** listing every locus of divergence by siglum.
-- Auto-collation with hand-correction, so that the scholar remains the final arbiter of how witnesses are aligned.
+- Variant typing: **match**, **substitution**, **addition**, **deletion**, **transposition** (moved text), and near-identical **variant** (fuzzy match), with a live legend and counts in the status bar.
+- **Word-level refinement** inside a differing line or sentence: only the words that actually change are tinted (a CollateX-style token alignment), so the eye lands on the divergence rather than the whole locus; the selected locus is framed in a strong version-variation highlight.
+- A vertical **overview minimap** down the edge, every variant as a band at its position with a viewport box and click-to-jump, plus a horizontal change-overview histogram.
+- An auto-generated **critical apparatus** listing every locus of divergence by siglum, and a **deep-dive** of quantitative statistics (verbatim overlap, moved-block counts, Jaccard / Dice / cosine similarity).
+- In code mode, **syntax highlighting** layered over the variant tints, for modern languages and historical assembly dialects (PDP-1 MACRO, AGC, MAD, FORTRAN, IPL-V, BASIC).
+- Auto-collation with hand-correction, so that the scholar remains the final arbiter of how witnesses are aligned. In Advanced mode, passages can be **hand-linked** by dragging an exact character range on each side.
 
 ## Theoretical background
 
@@ -40,11 +43,11 @@ Source Variorum makes the vocabulary of textual scholarship, the witness, the si
 
 ## Stack
 
-Next.js and TypeScript. Auto-collation produces an initial alignment that the reader can correct by hand. Hosted at [sourcevariorum.vercel.app](https://sourcevariorum.vercel.app); the repository carries full setup instructions.
+Next.js, React, TypeScript, Tailwind, CodeMirror, jsdiff, and jsPDF. The collation is computed **live in the browser** by a set of pure, deterministic functions: it is local-first, with no server and no model calls. A saved `.svar` project stores only the source of truth, the witnesses and your apparatus notes, and never the variants, which are recomputed deterministically on load. Hosted at [sourcevariorum.vercel.app](https://sourcevariorum.vercel.app); the repository carries full setup instructions.
 
 ## Status
 
-Version 0.6.x. Source code and text modes are live, with the transposition braid, the five variant types plus fuzzy variant, and the auto-generated critical apparatus. Support for three or more witnesses is a later phase. See the repository for the current state of each capability.
+Version 0.6.x. Source code and text modes are live, with the transposition braid, the five variant types plus fuzzy variant, word-level refinement, the overview minimap, a project workbench (sources, folders, per-panel editing, undo/redo), an auto-generated critical apparatus with a quantitative deep-dive, and export to Markdown, TEI P5, PDF, and JSON. Support for three or more witnesses is a later phase. See the repository for the current state of each capability.
 
 ## Siblings
 
