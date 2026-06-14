@@ -1,0 +1,39 @@
+title: Computational Hermeneutics
+tagline: Research instruments for computational close reading
+description: >
+  A family of research instruments that bring the apparatus of textual
+  criticism and interpretation to computational artefacts, to code as much
+  as to text.
+url: https://computational-hermeneutics.github.io
+repository: Computational-Hermeneutics/Computational-Hermeneutics.github.io
+
+author:
+  name: David M. Berry
+  url: https://github.com/dmberry
+
+theme: minima
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+header_pages:
+  - index.md
+  - tools.md
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
