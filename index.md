@@ -43,6 +43,7 @@ graph TB
   <h3><a href="/tools/ccs-wb.html">CCS Workbench</a></h3>
   <p class="object">Object: a single artefact of code.</p>
   <p>Close reading, annotation, and interpretation of software in the critical code studies tradition. Three modes: critique, interpret, create. The interpretive instrument of the family.</p>
+  <p class="launch"><a href="https://ccs-wb.vercel.app">Open the live app ↗</a> · <a href="/tools/ccs-wb.html">Deep dive</a></p>
 </article>
 
 </div>
@@ -56,6 +57,7 @@ graph TB
   <h3><a href="/tools/source-variorum.html">Source Variorum</a></h3>
   <p class="object">Object: two or more witnesses of a text, code or prose.</p>
   <p>A braided collation workbench. Additions, deletions, substitutions, and transpositions are read in a central braid of ribbons, with an auto-generated critical apparatus. The comparative instrument of the family.</p>
+  <p class="launch"><a href="https://sourcevariorum.vercel.app">Open the live app ↗</a> · <a href="/tools/source-variorum.html">Deep dive</a></p>
 </article>
 
 </div>

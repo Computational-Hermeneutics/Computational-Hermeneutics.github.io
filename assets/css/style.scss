@@ -377,6 +377,20 @@ hr { border: 0; border-top: 1px solid var(--ch-rule); margin: 3rem 0; }
   }
 
   p { margin: 0; font-size: 0.88rem; line-height: 1.5; }
+
+  .launch {
+    margin-top: 0.7rem;
+    font-size: 0.82rem;
+    font-variant: small-caps;
+    letter-spacing: 0.03em;
+
+    a {
+      color: var(--ch-blue);
+      border-bottom: none;
+      font-weight: 500;
+      &:hover { color: var(--ch-blue-hover); }
+    }
+  }
 }
 
 // Tool deep-dive header (per-tool pages)
