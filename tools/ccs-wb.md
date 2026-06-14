@@ -42,7 +42,7 @@ Next.js and React with TypeScript for the interface, and multi-provider adapters
 
 ## Status
 
-Version 5.1.7, CCS methodology v2.7. The three modes are live, with the unified IDE layout, six annotation types, AI auto-annotation, and colour-coded file handling. See the repository for the current state of each capability and its known limitations.
+Version 5.1.x, CCS methodology v2.7. The three modes are live, with the unified IDE layout, six annotation types, AI auto-annotation, and colour-coded file handling. See the repository for the current state of each capability and its known limitations.
 
 ## Siblings
 

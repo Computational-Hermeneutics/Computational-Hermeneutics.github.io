@@ -44,7 +44,7 @@ Next.js and TypeScript. Auto-collation produces an initial alignment that the re
 
 ## Status
 
-Version 0.6.0. Source code and text modes are live, with the transposition braid, the five variant types plus fuzzy variant, and the auto-generated critical apparatus. Support for three or more witnesses is a later phase. See the repository for the current state of each capability.
+Version 0.6.x. Source code and text modes are live, with the transposition braid, the five variant types plus fuzzy variant, and the auto-generated critical apparatus. Support for three or more witnesses is a later phase. See the repository for the current state of each capability.
 
 ## Siblings
 
