@@ -1,19 +1,19 @@
 <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none">
   <title>Source Variorum</title>
   <g stroke-linecap="round" fill="none">
-    <g stroke="#f1ece0" stroke-width="3">
+    <g stroke="#ece0c4" stroke-width="3">
       <line x1="9" y1="14" x2="23" y2="14"/>
       <line x1="9" y1="24" x2="23" y2="24"/>
       <line x1="9" y1="40" x2="23" y2="40"/>
       <line x1="9" y1="50" x2="23" y2="50"/>
     </g>
-    <g stroke="#f1ece0" stroke-width="3">
+    <g stroke="#ece0c4" stroke-width="3">
       <line x1="41" y1="14" x2="55" y2="14"/>
       <line x1="41" y1="30" x2="55" y2="30"/>
       <line x1="41" y1="40" x2="55" y2="40"/>
       <line x1="41" y1="50" x2="55" y2="50"/>
     </g>
-    <path d="M23 24 C 32 24 32 30 41 30" stroke="#6f97d6" stroke-width="3.5"/>
-    <path d="M23 40 C 32 40 32 40 41 40" stroke="#d4a84e" stroke-width="2.5"/>
+    <path d="M23 24 C 32 24 32 30 41 30" stroke="#88a6cc" stroke-width="3.5"/>
+    <path d="M23 40 C 32 40 32 40 41 40" stroke="#c9a44e" stroke-width="2.5"/>
   </g>
 </svg>

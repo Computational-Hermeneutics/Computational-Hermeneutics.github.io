@@ -2,39 +2,39 @@
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
 
   const LIGHT_VARS = {
-    background: '#ffffff',
-    primaryColor: '#ffffff',
-    primaryTextColor: '#1a1a1a',
-    primaryBorderColor: '#7a2e2e',
-    lineColor: '#6b6b6b',
-    secondaryColor: '#f1ece0',
-    tertiaryColor: '#ffffff',
-    clusterBkg: '#f1ece0',
-    clusterBorder: '#ddd3c0',
-    titleColor: '#1a1a1a',
-    edgeLabelBackground: '#faf8f2',
-    fontFamily: '"Source Serif 4", Georgia, serif'
+    background: '#fbf6e9',
+    primaryColor: '#fbf6e9',
+    primaryTextColor: '#2a2118',
+    primaryBorderColor: '#7c2128',
+    lineColor: '#6f6149',
+    secondaryColor: '#eadfc2',
+    tertiaryColor: '#fbf6e9',
+    clusterBkg: '#eadfc2',
+    clusterBorder: '#d8c6a0',
+    titleColor: '#2a2118',
+    edgeLabelBackground: '#f4ecd6',
+    fontFamily: '"EB Garamond", Garamond, Georgia, serif'
   };
 
   const DARK_VARS = {
-    background: '#14110c',
-    primaryColor: '#1c1813',
-    primaryTextColor: '#f1ece0',
-    primaryBorderColor: '#c98989',
-    lineColor: '#9a9080',
-    secondaryColor: '#241f18',
-    tertiaryColor: '#1c1813',
-    clusterBkg: '#1c1813',
-    clusterBorder: '#3a332a',
-    titleColor: '#f1ece0',
-    edgeLabelBackground: '#14110c',
-    fontFamily: '"Source Serif 4", Georgia, serif'
+    background: '#1a140d',
+    primaryColor: '#221a11',
+    primaryTextColor: '#ece0c4',
+    primaryBorderColor: '#cf8a82',
+    lineColor: '#a8967a',
+    secondaryColor: '#2a2014',
+    tertiaryColor: '#221a11',
+    clusterBkg: '#221a11',
+    clusterBorder: '#3a2e1d',
+    titleColor: '#ece0c4',
+    edgeLabelBackground: '#1a140d',
+    fontFamily: '"EB Garamond", Garamond, Georgia, serif'
   };
 
-  const READ_LIGHT = 'classDef reading fill:#ffffff,stroke:#b8862e,color:#1a1a1a,stroke-width:1.2px';
-  const COLL_LIGHT = 'classDef collation fill:#ffffff,stroke:#3563a8,color:#1a1a1a,stroke-width:1.2px';
-  const READ_DARK  = 'classDef reading fill:#1c1813,stroke:#d4a84e,color:#f1ece0,stroke-width:1.2px';
-  const COLL_DARK  = 'classDef collation fill:#1c1813,stroke:#6f97d6,color:#f1ece0,stroke-width:1.2px';
+  const READ_LIGHT = 'classDef reading fill:#fbf6e9,stroke:#9c7c34,color:#2a2118,stroke-width:1.2px';
+  const COLL_LIGHT = 'classDef collation fill:#fbf6e9,stroke:#2f4a6b,color:#2a2118,stroke-width:1.2px';
+  const READ_DARK  = 'classDef reading fill:#221a11,stroke:#c9a44e,color:#ece0c4,stroke-width:1.2px';
+  const COLL_DARK  = 'classDef collation fill:#221a11,stroke:#88a6cc,color:#ece0c4,stroke-width:1.2px';
 
   function preprocess(src, theme) {
     let out = src.replace(/^\s*classDef\s+reading\s+[^\n]*$/gm, '');

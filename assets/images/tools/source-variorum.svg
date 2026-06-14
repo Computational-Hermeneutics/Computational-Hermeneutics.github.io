@@ -1,21 +1,21 @@
 <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none">
   <title>Source Variorum</title>
   <g stroke-linecap="round" fill="none">
-    <g stroke="#1a1a1a" stroke-width="3">
+    <g stroke="#2a2118" stroke-width="3">
       <line x1="9" y1="14" x2="23" y2="14"/>
       <line x1="9" y1="24" x2="23" y2="24"/>
       <line x1="9" y1="40" x2="23" y2="40"/>
       <line x1="9" y1="50" x2="23" y2="50"/>
     </g>
-    <g stroke="#1a1a1a" stroke-width="3">
+    <g stroke="#2a2118" stroke-width="3">
       <line x1="41" y1="14" x2="55" y2="14"/>
       <line x1="41" y1="30" x2="55" y2="30"/>
       <line x1="41" y1="40" x2="55" y2="40"/>
       <line x1="41" y1="50" x2="55" y2="50"/>
     </g>
     <!-- transposition braid (A:24 -> B:30) -->
-    <path d="M23 24 C 32 24 32 30 41 30" stroke="#3563a8" stroke-width="3.5"/>
+    <path d="M23 24 C 32 24 32 30 41 30" stroke="#2f4a6b" stroke-width="3.5"/>
     <!-- substitution -->
-    <path d="M23 40 C 32 40 32 40 41 40" stroke="#b8862e" stroke-width="2.5"/>
+    <path d="M23 40 C 32 40 32 40 41 40" stroke="#9c7c34" stroke-width="2.5"/>
   </g>
 </svg>

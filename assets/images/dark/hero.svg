@@ -1,10 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
   <title>Computational Hermeneutics: two witnesses collated in a braid</title>
-  <g stroke="#2a2419" stroke-width="0.5">
-    <path d="M 0 50 H 800 M 0 100 H 800 M 0 150 H 800 M 0 200 H 800 M 0 250 H 800 M 0 300 H 800 M 0 350 H 800"/>
-    <path d="M 50 0 V 400 M 150 0 V 400 M 250 0 V 400 M 350 0 V 400 M 450 0 V 400 M 550 0 V 400 M 650 0 V 400 M 750 0 V 400"/>
+  <g stroke="#3a2e1d" stroke-width="0.75">
+    <path d="M 60 70 H 740 M 60 110 H 740 M 60 150 H 740 M 60 190 H 740 M 60 230 H 740 M 60 270 H 740 M 60 310 H 740"/>
   </g>
-  <g stroke="#f1ece0" stroke-width="5" stroke-linecap="round" opacity="0.85">
+  <g stroke="#cf8a82" stroke-width="0.9" stroke-opacity="0.5">
+    <line x1="96" y1="46" x2="96" y2="334"/>
+    <line x1="704" y1="46" x2="704" y2="334"/>
+  </g>
+  <g stroke="#ece0c4" stroke-width="5" stroke-linecap="round" opacity="0.88">
     <line x1="120" y1="70"  x2="280" y2="70"/>
     <line x1="120" y1="110" x2="245" y2="110"/>
     <line x1="120" y1="150" x2="280" y2="150"/>
@@ -13,7 +16,7 @@
     <line x1="120" y1="270" x2="260" y2="270"/>
     <line x1="120" y1="310" x2="280" y2="310"/>
   </g>
-  <g stroke="#f1ece0" stroke-width="5" stroke-linecap="round" opacity="0.85">
+  <g stroke="#ece0c4" stroke-width="5" stroke-linecap="round" opacity="0.88">
     <line x1="520" y1="70"  x2="680" y2="70"/>
     <line x1="520" y1="110" x2="680" y2="110"/>
     <line x1="520" y1="150" x2="635" y2="150"/>
@@ -22,17 +25,13 @@
     <line x1="520" y1="310" x2="660" y2="310"/>
   </g>
   <g fill="none" stroke-linecap="round">
-    <path d="M 280 70  C 400 70,  400 70,  520 70"  stroke="#9a9080" stroke-width="2" opacity="0.5"/>
-    <path d="M 245 110 C 400 110, 400 110, 520 110" stroke="#d4a84e" stroke-width="3"/>
-    <path d="M 280 150 C 400 150, 400 270, 520 270" stroke="#6f97d6" stroke-width="4.5"/>
-    <path d="M 280 230 C 400 230, 400 150, 520 150" stroke="#6f97d6" stroke-width="3.5"/>
-    <path d="M 230 190 C 400 190, 400 190, 520 190" stroke="#9a9080" stroke-width="2" opacity="0.5"/>
-    <path d="M 260 270 C 380 270, 380 310, 520 310" stroke="#d4a84e" stroke-width="3"/>
-    <path d="M 280 310 C 360 310, 380 350, 400 350" stroke="#c98989" stroke-width="3.5"/>
+    <path d="M 280 70  C 400 70,  400 70,  520 70"  stroke="#a8967a" stroke-width="2" opacity="0.55"/>
+    <path d="M 245 110 C 400 110, 400 110, 520 110" stroke="#c9a44e" stroke-width="3"/>
+    <path d="M 280 150 C 400 150, 400 270, 520 270" stroke="#88a6cc" stroke-width="4.5"/>
+    <path d="M 280 230 C 400 230, 400 150, 520 150" stroke="#88a6cc" stroke-width="3.5"/>
+    <path d="M 230 190 C 400 190, 400 190, 520 190" stroke="#a8967a" stroke-width="2" opacity="0.55"/>
+    <path d="M 260 270 C 380 270, 380 310, 520 310" stroke="#c9a44e" stroke-width="3"/>
+    <path d="M 280 310 C 360 310, 380 350, 400 350" stroke="#cf8a82" stroke-width="3.5"/>
   </g>
-  <circle cx="400" cy="350" r="4" fill="#c98989"/>
-  <g stroke="#d4a84e" stroke-width="0.75" stroke-opacity="0.5">
-    <line x1="110" y1="50" x2="110" y2="330"/>
-    <line x1="690" y1="50" x2="690" y2="330"/>
-  </g>
+  <circle cx="400" cy="350" r="4" fill="#cf8a82"/>
 </svg>

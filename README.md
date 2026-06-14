@@ -31,8 +31,9 @@ jekyll serve
 ## Design
 
 Light is the default theme; dark is activated by `html[data-theme="dark"]` and
-persisted in `localStorage`. The palette is philological: ivory and parchment
-grounds, burgundy as the primary brand and link colour, manuscript gold for the
-close-reading register, and scholarly blue for the collation register.
+persisted in `localStorage`. The palette and typography are those of a critical
+edition: aged-parchment grounds and sepia ink set in EB Garamond, with rubric
+oxblood as the primary brand and link colour, antique gold for the close-reading
+register, and manuscript lapis for the collation register.
 
 Maintained by [David M. Berry](https://github.com/dmberry).

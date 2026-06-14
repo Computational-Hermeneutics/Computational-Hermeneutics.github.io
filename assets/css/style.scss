@@ -3,44 +3,44 @@
 
 // Computational Hermeneutics: themable editorial styles.
 // Light is default; dark is activated by html[data-theme="dark"].
-// Palette is philological: ivory and parchment grounds, burgundy as the
-// primary brand and link colour, manuscript gold for the close-reading tier,
-// scholarly blue for the collation tier.
+// Palette is that of a critical edition: aged-parchment grounds, sepia ink,
+// rubric oxblood as the primary brand and link colour, antique gold for the
+// close-reading register, and manuscript lapis for the collation register.
 
 :root {
-  --ch-bg: #faf8f2;                          /* ivory */
-  --ch-surface: #ffffff;
-  --ch-surface-alt: #f1ece0;                 /* cream, for panels and code */
-  --ch-text: #1a1a1a;
-  --ch-muted: #6b6b6b;
-  --ch-blue: #7a2e2e;                        /* burgundy: primary brand and links */
-  --ch-blue-hover: #9a3a3a;
-  --ch-blue-underline: rgba(122, 46, 46, 0.32);
-  --ch-sand: #b8862e;                        /* manuscript gold, close-reading tier */
-  --ch-burgundy: #3563a8;                    /* scholarly blue, collation tier */
-  --ch-rule: #ddd3c0;                        /* parchment rule */
-  --ch-card-shadow: 0 2px 12px rgba(122, 46, 46, 0.08);
+  --ch-bg: #f4ecd6;                          /* aged parchment */
+  --ch-surface: #fbf6e9;                     /* fresh page */
+  --ch-surface-alt: #eadfc2;                 /* darker parchment, panels and code */
+  --ch-text: #2a2118;                        /* sepia-black ink */
+  --ch-muted: #6f6149;                       /* faded brown ink */
+  --ch-blue: #7c2128;                        /* rubric oxblood: brand and links */
+  --ch-blue-hover: #9c3a36;
+  --ch-blue-underline: rgba(124, 33, 40, 0.3);
+  --ch-sand: #9c7c34;                        /* antique gold, close-reading register */
+  --ch-burgundy: #2f4a6b;                    /* manuscript lapis, collation register */
+  --ch-rule: #d8c6a0;                        /* parchment rule */
+  --ch-card-shadow: 0 2px 12px rgba(80, 50, 20, 0.10);
 }
 
 html[data-theme="dark"] {
-  --ch-bg: #14110c;                          /* warm dark parchment */
-  --ch-surface: #1c1813;
-  --ch-surface-alt: #241f18;
-  --ch-text: #f1ece0;
-  --ch-muted: #9a9080;
-  --ch-blue: #c98989;
-  --ch-blue-hover: #dda5a5;
-  --ch-blue-underline: rgba(201, 137, 137, 0.45);
-  --ch-sand: #d4a84e;
-  --ch-burgundy: #6f97d6;
-  --ch-rule: #3a332a;
-  --ch-card-shadow: 0 2px 16px rgba(0, 0, 0, 0.45);
+  --ch-bg: #1a140d;                          /* dark leather, candle-lit page */
+  --ch-surface: #221a11;
+  --ch-surface-alt: #2a2014;
+  --ch-text: #ece0c4;                        /* parchment text */
+  --ch-muted: #a8967a;
+  --ch-blue: #cf8a82;                        /* lightened oxblood */
+  --ch-blue-hover: #dd9d96;
+  --ch-blue-underline: rgba(207, 138, 130, 0.45);
+  --ch-sand: #c9a44e;
+  --ch-burgundy: #88a6cc;
+  --ch-rule: #3a2e1d;
+  --ch-card-shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
 }
 
-$wrap: 960px;
-$serif: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
-$display: "Source Serif 4", "Iowan Old Style", Georgia, serif;
-$sans: "Inter", system-ui, -apple-system, sans-serif;
+$wrap: 880px;
+$serif: "EB Garamond", "Garamond", "Palatino Linotype", "Iowan Old Style", Georgia, serif;
+$display: "EB Garamond", "Garamond", "Palatino Linotype", Georgia, serif;
+$sans: "EB Garamond", "Garamond", Georgia, serif;
 
 * { box-sizing: border-box; }
 
@@ -50,8 +50,10 @@ body {
   background: var(--ch-bg);
   color: var(--ch-text);
   font-family: $serif;
-  font-size: 17px;
-  line-height: 1.65;
+  font-size: 20px;
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1, "liga" 1, "onum" 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: background-color 0.25s ease, color 0.25s ease;
@@ -102,17 +104,19 @@ body {
 
   .brand-text {
     font-family: $display;
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     font-weight: 600;
-    letter-spacing: 0.005em;
+    font-variant: small-caps;
+    letter-spacing: 0.06em;
     color: var(--ch-text);
   }
 
   .brand-tagline {
     font-family: $sans;
-    font-size: 0.74rem;
+    font-style: italic;
+    font-size: 0.86rem;
     color: var(--ch-muted);
-    margin-top: 0.22rem;
+    margin-top: 0.18rem;
     letter-spacing: 0.01em;
   }
 
@@ -128,10 +132,10 @@ body {
     color: var(--ch-muted);
     text-decoration: none;
     font-family: $sans;
-    font-size: 0.82rem;
+    font-size: 1rem;
     font-weight: 500;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
     border-bottom: 1px solid transparent;
     padding-bottom: 2px;
     transition: color 0.2s ease, border-color 0.2s ease;
@@ -197,10 +201,14 @@ h1, h2, h3, h4 {
   line-height: 1.25;
 }
 
-h1 { font-size: 2.3rem; margin: 2rem 0 1rem; letter-spacing: -0.01em; }
+h1 { font-size: 2.6rem; margin: 2rem 0 1rem; letter-spacing: 0; }
 
 h2 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  color: var(--ch-blue);
   margin-top: 3rem;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
