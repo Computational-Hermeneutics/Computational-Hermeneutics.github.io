@@ -5,7 +5,7 @@ title: Computational Hermeneutics
 
 <section class="lede">
 
-Text is written, copied, edited, forked, and revised. So is code. Both carry variants, witnesses, and emendations, and both can be read closely or read comparatively; Computational Hermeneutics treats text and code alike as research objects. Yet the apparatus that philology built over centuries for exactly this work, the witness, the siglum, the copy-text, the *apparatus criticus*, the collation, has not been brought to bear on code, on corpora, or on machine-generated text. The interpretive traditions and the computational artefacts have stayed in separate rooms.
+Text is written, copied, edited, forked, and revised and so is code. Both carry variants, witnesses, and emendations, and both can be read closely or read comparatively; Computational Hermeneutics treats text and code alike as research objects. Yet the apparatus that philology built over centuries for exactly this work, the witness, the siglum, the copy-text, the *apparatus criticus*, the collation, has not been brought to bear on code, on corpora, or on machine-generated text. The interpretive traditions and the computational artefacts have stayed in separate rooms.
 
 Computational Hermeneutics is an attempt to bring them together. The instruments here treat computational artefacts as objects of reading rather than only of execution or measurement: code as cultural text, the corpus as a field of witnesses, the generated output as a text with a provenance. The work is local-first, interpretively serious, and built for close reading rather than distant measurement.
 
