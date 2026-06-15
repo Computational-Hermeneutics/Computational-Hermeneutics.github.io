@@ -68,16 +68,40 @@ body {
 // Header
 
 .site-header {
-  background: var(--ch-bg);
+  position: relative;
+  // Ruled-paper background: faint horizontal lines, like a notepad.
+  background-color: var(--ch-bg);
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 29px,
+    var(--ch-rule) 29px,
+    var(--ch-rule) 30px
+  );
+  background-position: left top;
   border-bottom: 1px solid var(--ch-rule);
-  padding: 1rem 0;
+  padding: 1.4rem 0;
 
   .wrap {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1rem;
+  }
+
+  // Notepad margin rule, in oxblood, just left of the masthead.
+  .wrap::before {
+    content: "";
+    position: absolute;
+    top: -1.4rem;
+    bottom: -1.4rem;
+    left: 0.9rem;
+    width: 1px;
+    background: var(--ch-blue);
+    opacity: 0.4;
+    pointer-events: none;
   }
 }
 
