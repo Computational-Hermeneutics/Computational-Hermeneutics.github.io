@@ -27,6 +27,15 @@ Versions of a text, whether commits of source code or witnesses of a poem, diffe
 - **Source code** — line- and token-aware, monospace, for collating versions of code and reading the movement of code as a cultural-textual process.
 - **Text** — sentence- and word-aware, proportional type, with witness sigla, for prose witnesses, paratexts, and classical or hermeneutic comparison.
 
+## Two engines
+
+Collation is not one operation. Code is almost one-to-one, lines correspond closely and the question is which lines changed, whereas prose is discourse, the "same" sentence is routinely rephrased and the question is which passages correspond at all. Source Variorum therefore collates with two engines, each with its own braid settings, selected to match the object under comparison. Both run on the same pure, deterministic core, so the typed variants, the apparatus, and the statistics stay in step whichever engine is in play.
+
+- **CX-Engine** (after CollateX, for code and exact textual collation). It reads the braid *literally*: leftover lines are paired only when genuinely alike, a renamed label or a changed operand, and otherwise called a clean addition or deletion; reformatting is ignored, so added or removed blank lines do not register as variants; and a block must be near-identical to count as a move. There is no locality prior, because code is not a narrative. The result is a tight, conservative braid suited to small edits between versions of a program.
+- **TX-Engine** (after the Translation Arrays and Version Variation Visualization tradition, for prose, verse, and translation). It pairs much more loosely, because correspondence here is semantic rather than positional, and adds a **locality prior**: corresponding passages tend to sit at similar relative positions in a narrative, so nearer-in-the-text pairings are preferred and a distant relocation must clear a higher similarity bar. It can segment by **line** rather than sentence for verse and drama. The braid is correspondingly smarter, reflecting that the "same" passage may read very differently across witnesses.
+
+The engine follows the mode by default, the CX profile for code and the TX profile for prose, and the per-engine braid options are exposed in a settings panel for hand-tuning, with a three-tier confidence reading on each ribbon.
+
 ## What it shows
 
 - A three-column **braid** (Witness A · ribbon gutter · Witness B) with Bezier ribbons whose thickness scales with the length of the matched block.
@@ -47,7 +56,7 @@ Next.js, React, TypeScript, Tailwind, CodeMirror, jsdiff, and jsPDF. The collati
 
 ## Status
 
-Version 0.6.x. Source code and text modes are live, with the transposition braid, the five variant types plus fuzzy variant, word-level refinement, the overview minimap, a project workbench (sources, folders, per-panel editing, undo/redo), an auto-generated critical apparatus with a quantitative deep-dive, and export to Markdown, TEI P5, PDF, and JSON. Support for three or more witnesses is a later phase. See the repository for the current state of each capability.
+Version 0.7.x. Source code and text modes are live, with the two collation engines (CX and TX), the transposition braid, the five variant types plus fuzzy variant, word-level refinement, the overview minimap, a project workbench (sources, folders, per-panel editing, undo/redo), an auto-generated critical apparatus with a quantitative deep-dive, and export to Markdown, TEI P5, PDF, and JSON. Support for three or more witnesses is a later phase. See the repository for the current state of each capability.
 
 ## Siblings
 
