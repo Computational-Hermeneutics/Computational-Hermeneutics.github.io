@@ -75,8 +75,8 @@ body {
     to bottom,
     transparent 0,
     transparent 29px,
-    color-mix(in srgb, var(--ch-rule) 22%, transparent) 29px,
-    color-mix(in srgb, var(--ch-rule) 22%, transparent) 30px
+    color-mix(in srgb, var(--ch-rule) 10%, transparent) 29px,
+    color-mix(in srgb, var(--ch-rule) 10%, transparent) 30px
   );
   background-position: left top;
   border-bottom: 1px solid var(--ch-rule);
@@ -100,7 +100,7 @@ body {
     left: 0.9rem;
     width: 1px;
     background: var(--ch-blue);
-    opacity: 0.16;
+    opacity: 0.08;
     pointer-events: none;
   }
 }

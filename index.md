@@ -5,11 +5,11 @@ title: Computational Hermeneutics
 
 <section class="lede">
 
-Text is written, copied, edited, forked, and revised and so is code. Both carry variants, witnesses, and emendations, and both can be read closely or read comparatively; Computational Hermeneutics treats text and code alike as research objects. Yet the apparatus that philology built over centuries for exactly this work, the witness, the siglum, the copy-text, the <em>apparatus criticus</em>, the collation, has not been brought to bear on code, on corpora, or on machine-generated text. The interpretive traditions and the computational artefacts have stayed in separate rooms.
+Text is written, copied, edited, forked, and revised. So is code. Both carry variants, witnesses, and emendations, and both can be read closely or read comparatively. Computational Hermeneutics treats text and code alike as research objects. Yet the methods and approaches that philology built over centuries for this work, the witness, the siglum, the copy-text, the <em>apparatus criticus</em>, the collation, have not been fully brought to bear on code, on corpora, or on machine-generated text. The interpretive traditions and the computational artefacts could be said to have stayed in separate rooms.
 
-Computational Hermeneutics is an attempt to bring them together. The instruments here treat computational artefacts as objects of reading rather than only of execution or measurement: code as cultural text, the corpus as a field of witnesses, the generated output as a text with a provenance. The work is local-first, interpretively serious, and built for close reading rather than distant measurement.
+Computational Hermeneutics is an attempt to bring them together. The tools here treat computational artefacts as objects of reading rather than only of execution or measurement, that is, code as a cultural text, the corpus as a field of witnesses, the generated output as a text with a provenance. The tools are local-first, interpretively powerful, and built for close reading rather than distant measurement.
 
-The instruments are arranged in two registers. The close-reading register opens a single artefact for intensive interpretation. The collation register sets witnesses side by side and reads the differences between them. The first register supplies depth of interpretation; the second supplies the comparative ground on which textual and critical claims can be made.
+There are currently two tools. The close-reading tool opens a single artefact for intensive interpretation. The collation tool sets witnesses side by side and reads the differences between them. The first tool supplies depth of interpretation; the second supplies the comparative ground on which textual and critical claims can be made.
 
 </section>
 
