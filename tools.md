@@ -5,7 +5,7 @@ title: Tools
 
 # Tools
 
-A brief guide to each instrument. Follow the **Deep dive** link on any tool for its extended page with operations, theoretical background, and status. The close-reading register opens a single artefact for intensive interpretation; the collation register sets witnesses side by side.
+A brief guide to each tool. Follow the **Deep dive** link on any tool for its extended page with operations, theoretical background, and status. The close-reading register opens a single artefact for intensive interpretation; the collation register sets witnesses side by side.
 
 ---
 
@@ -55,6 +55,6 @@ The naming grammar borrows from the vocabulary of textual scholarship:
 
 - <strong>Workbench</strong>: a surface for close, iterative work with a single artefact, in the manner of critical code studies.
 - <strong>Variorum</strong>: an edition that collates the variants of a text and records, in an apparatus, the notes of its various readers.
-- <strong>Witness</strong>, <strong>siglum</strong>, <strong>apparatus</strong>: the terms of art the instruments make operable on computational material.
+- <strong>Witness</strong>, <strong>siglum</strong>, <strong>apparatus</strong>: the terms of art the tools make operable on computational material.
 
 {% include mermaid.html %}

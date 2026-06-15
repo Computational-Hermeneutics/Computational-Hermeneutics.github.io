@@ -42,7 +42,7 @@ graph TB
   <img class="tool-icon" src="/assets/images/tools/ccs-wb.svg" alt="">
   <h3><a href="/tools/ccs-wb.html">CCS Workbench</a></h3>
   <p class="object">Object: a single artefact of code.</p>
-  <p>Close reading, annotation, and interpretation of software in the critical code studies tradition. Three modes: critique, interpret, create. The interpretive instrument of the family.</p>
+  <p>Close reading, annotation, and interpretation of software in the critical code studies tradition. Three modes: critique, interpret, create. The interpretive tool of the family.</p>
   <p class="launch"><a href="https://ccs-wb.vercel.app">Open the live app ↗</a> · <a href="/tools/ccs-wb.html">Deep dive</a></p>
 </article>
 
@@ -56,7 +56,7 @@ graph TB
   <img class="tool-icon" src="/assets/images/tools/source-variorum.svg" alt="">
   <h3><a href="/tools/source-variorum.html">Source Variorum</a></h3>
   <p class="object">Object: two or more witnesses of a text, code or prose.</p>
-  <p>A braided collation workbench. Additions, deletions, substitutions, and transpositions are read in a central braid of ribbons, with an auto-generated critical apparatus. The comparative instrument of the family.</p>
+  <p>A braided collation workbench. Additions, deletions, substitutions, and transpositions are read in a central braid of ribbons, with an auto-generated critical apparatus. The comparative tool of the family.</p>
   <p class="launch"><a href="https://sourcevariorum.vercel.app">Open the live app ↗</a> · <a href="/tools/source-variorum.html">Deep dive</a></p>
 </article>
 
@@ -66,21 +66,21 @@ graph TB
 
 Computational Hermeneutics is a set of methods that work on the principle that the interpretation of computational artefacts is continuous with, rather than separate from, the long traditions of textual scholarship and critical theory. Critical code studies argued that software deserves the same close reading we give literature; textual criticism developed the techniques for tracking how a text changes across its witnesses; hermeneutics gave an account of how understanding moves between part and whole. These traditions have rarely been combined, and they have almost never been instrumented.
 
-The deficit is one of tools as much as of theory. It is one thing to assert that a fork enacts an interpretation, that a refactoring is an emendation, that a generated text has a textual condition; it is another to be able to show it, line by line, witness against witness, with an apparatus that records every decision. The instruments here are built to close that gap, to make the apparatus of philology operable on computational material, and to keep interpretation and attestation bound together so that no reading is offered without the evidence that supports it.
+The deficit is one of tools as much as of theory. It is one thing to assert that a fork enacts an interpretation, that a refactoring is an emendation, that a generated text has a textual condition; it is another to be able to show it, line by line, witness against witness, with an apparatus that records every decision. The tools here are built to close that gap, to make the apparatus of philology operable on computational material, and to keep interpretation and attestation bound together so that no reading is offered without the evidence that supports it.
 
-The commitment is to the local and the legible. Where so much computational analysis runs at a distance, summarising corpora into aggregate measures, these instruments work at the resolution of the line, the token, the annotation, and the variant. They are designed for the scholar who wants to read a particular artefact, or collate particular witnesses, and to be answerable to the detail.
+The commitment is to the local and the legible. Where so much computational analysis runs at a distance, summarising corpora into aggregate measures, these tools work at the resolution of the line, the token, the annotation, and the variant. They are designed for the scholar who wants to read a particular artefact, or collate particular witnesses, and to be answerable to the detail.
 
-## How the instruments relate
+## How the tools relate
 
 The two registers are complementary. Close reading opens a single artefact at depth: the CCS Workbench reads a body of code through annotation, critique, and interpretation, recovering the cultural and technical work that a piece of software performs. Collation works across witnesses: Source Variorum sets two or more versions of a text side by side and reads the movement between them, the additions, deletions, substitutions, and transpositions that constitute its textual history.
 
-A finding surfaced in one register sharpens the other. A locus of divergence flagged by a collation is exactly the place where close reading is most rewarded; an interpretation developed through close reading tells you which variants matter and why. The annotation layer is deliberately shared between the instruments so that a reading made in one can travel to the other.
+A finding surfaced in one register sharpens the other. A locus of divergence flagged by a collation is exactly the place where close reading is most rewarded; an interpretation developed through close reading tells you which variants matter and why. The annotation layer is deliberately shared between the tools so that a reading made in one can travel to the other.
 
-The two instruments are the first of a family. Further instruments extending the same posture to concordance, witness relations, and paratext are in preparation.
+The two tools are the first of a family. Further tools extending the same posture to concordance, witness relations, and paratext are in preparation.
 
 ## Further reading
 
-The instruments operationalise commitments developed across critical code studies, textual scholarship, and the critical theory of computation. The literature below sets the conceptual ground; the tools are the working apparatus.
+The tools operationalise commitments developed across critical code studies, textual scholarship, and the critical theory of computation. The literature below sets the conceptual ground; the tools are the working apparatus.
 
 ### Critical code studies and software theory
 
@@ -104,6 +104,6 @@ The instruments operationalise commitments developed across critical code studie
 
 ## Using the tools
 
-Each repository contains full documentation, dependencies, and setup instructions. Tools are research instruments and are offered as-is under permissive licences. If Computational Hermeneutics tools support published research, please cite the specific tool and version, and cite the relevant scholarship where the methods being applied are developed.
+Each repository contains full documentation, dependencies, and setup instructions. Tools are research tools and are offered as-is under permissive licences. If Computational Hermeneutics tools support published research, please cite the specific tool and version, and cite the relevant scholarship where the methods being applied are developed.
 
 {% include mermaid.html %}

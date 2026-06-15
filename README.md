@@ -1,7 +1,7 @@
 # Computational-Hermeneutics.github.io
 
 Landing site and map for the **Computational Hermeneutics** family of tools:
-research instruments that bring the apparatus of textual criticism and
+research tools that bring the apparatus of textual criticism and
 interpretation to computational artefacts, to code as much as to text.
 
 Published at **[computational-hermeneutics.github.io](https://computational-hermeneutics.github.io)**.

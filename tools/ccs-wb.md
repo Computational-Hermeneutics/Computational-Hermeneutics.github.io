@@ -16,11 +16,11 @@ title: CCS Workbench
 
 </section>
 
-The Critical Code Studies Workbench is a web application for the close reading and hermeneutic analysis of software as a cultural artefact. Software deserves the same close reading we give literature; the Workbench is the instrument that makes that reading practicable, holding code, annotation, and interpretation in a single interpretive surface. It is the close-reading instrument of the Computational Hermeneutics family.
+The Critical Code Studies Workbench is a web application for the close reading and hermeneutic analysis of software as a cultural artefact. Software deserves the same close reading we give literature; the Workbench is the tool that makes that reading practicable, holding code, annotation, and interpretation in a single interpretive surface. It is the close-reading tool of the Computational Hermeneutics family.
 
 ## Why the Workbench
 
-Critical code studies argued, more than a decade ago, that code is a text with meaning, susceptible to interpretation, situated in culture and history. What has been missing is an instrument that supports the practice at the resolution it demands: line-by-line annotation, typed interpretive moves, the recovery of historical software, and an AI interlocutor pitched at the right level for the reader. The Workbench treats a body of code as an object of reading and provides the apparatus, the IDE-style layout, the annotation types, the methodological scaffolding, for reading it well.
+Critical code studies argued, more than a decade ago, that code is a text with meaning, susceptible to interpretation, situated in culture and history. What has been missing is an tool that supports the practice at the resolution it demands: line-by-line annotation, typed interpretive moves, the recovery of historical software, and an AI interlocutor pitched at the right level for the reader. The Workbench treats a body of code as an object of reading and provides the apparatus, the IDE-style layout, the annotation types, the methodological scaffolding, for reading it well.
 
 ## Modes
 
@@ -30,7 +30,7 @@ Critical code studies argued, more than a decade ago, that code is a text with m
 
 ## Annotation
 
-Both reading modes use a unified annotation layer. Annotations are typed, anchored to lines or ranges, and summarised by type in a side panel. An AI auto-annotation pass can propose annotations for review, which the reader accepts or discards, so that machine suggestion is always subordinate to the reader's judgement. The annotation infrastructure is shared with the wider family, including Source Variorum, so that a reading made in one instrument can travel to the other.
+Both reading modes use a unified annotation layer. Annotations are typed, anchored to lines or ranges, and summarised by type in a side panel. An AI auto-annotation pass can propose annotations for review, which the reader accepts or discards, so that machine suggestion is always subordinate to the reader's judgement. The annotation infrastructure is shared with the wider family, including Source Variorum, so that a reading made in one tool can travel to the other.
 
 ## Theoretical background
 

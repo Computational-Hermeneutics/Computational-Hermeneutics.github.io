@@ -16,7 +16,7 @@ title: Source Variorum
 
 </section>
 
-Source Variorum is a side-by-side textual collation workbench. A *variorum*, from *cum notis variorum*, "with the notes of various people", is a work of textual criticism that collates all known variants of a text and sets them side by side, so that a reader can track how textual decisions have been made in preparing a text for publication. Source Variorum brings that apparatus to computational close reading. It is the collation instrument of the Computational Hermeneutics family.
+Source Variorum is a side-by-side textual collation workbench. A *variorum*, from *cum notis variorum*, "with the notes of various people", is a work of textual criticism that collates all known variants of a text and sets them side by side, so that a reader can track how textual decisions have been made in preparing a text for publication. Source Variorum brings that apparatus to computational close reading. It is the collation tool of the Computational Hermeneutics family.
 
 ## Why Source Variorum
 
@@ -62,4 +62,4 @@ Version 0.7.x. Source code and text modes are live, with the two collation engin
 
 ## Siblings
 
-[CCS Workbench](/tools/ccs-wb.html) takes the close-reading register, opening a single artefact of code for annotation and interpretation. The two instruments share an annotation layer, so a reading made over a single witness in the Workbench can be brought to bear on the loci of divergence that Source Variorum surfaces.
+[CCS Workbench](/tools/ccs-wb.html) takes the close-reading register, opening a single artefact of code for annotation and interpretation. The two tools share an annotation layer, so a reading made over a single witness in the Workbench can be brought to bear on the loci of divergence that Source Variorum surfaces.
