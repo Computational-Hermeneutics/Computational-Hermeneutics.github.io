@@ -59,6 +59,10 @@ Next.js, React, TypeScript, Tailwind, CodeMirror, jsdiff, and jsPDF. The collati
 
 Version 0.7.x. Source code and text modes are live, with the two collation engines (CX and TX), the transposition braid, the five variant types plus fuzzy variant, word-level refinement, the overview minimap, a project workbench (sources, folders, per-panel editing, undo/redo), an auto-generated critical apparatus with a quantitative deep-dive, and export to Markdown, TEI P5, PDF, and JSON. Support for three or more witnesses is a later phase. See the repository for the current state of each capability.
 
+## In preparation
+
+Two refinements to how a reader records judgement on the braid are planned. A per-locus **confidence control** on the variant toolbar, a downthumb that lowers a ribbon's confidence in steps (one click reduces it by a quarter, two by a half), with the reduction shown as a two-tone shade on the button. And a **tentative** variant type, marked in grey, for loci a reader wants to flag as uncertain and return to later, distinct from the settled additions, deletions, substitutions, and transpositions.
+
 ## Siblings
 
 [CCS Workbench](/tools/ccs-wb.html) takes the close-reading register, opening a single artefact of code for annotation and interpretation. The two instruments share an annotation layer, so a reading made over a single witness in the Workbench can be brought to bear on the loci of divergence that Source Variorum surfaces.
