@@ -46,6 +46,7 @@ The engine follows the mode by default, the CX profile for code and the TX profi
 - Across a set of witnesses, two distinctiveness measures from the Version Variation Visualization (VVV) / ShakerVis tradition in which the TX-Engine sits. **Eddy²** scores each witness's relative distinctiveness, its mean Sørensen–Dice distance over character bigrams from every other witness on the whole normalised text, flagging the outlier reading; it works on the raw text and so is engine-independent. **Viv²** maps the per-character divergence of the base text, a Juxta-style filter set that collates the base against each other witness through the active engine (CX for code, TX for prose) and counts, at every position, how many witnesses disagree, the hotspots.
 - In code mode, **syntax highlighting** layered over the variant tints, for modern languages and historical assembly dialects (PDP-1 MACRO, AGC, MAD, FORTRAN, IPL-V, BASIC).
 - Auto-collation with hand-correction, so that the scholar remains the final arbiter of how witnesses are aligned. In Advanced mode, passages can be **hand-linked** by dragging an exact character range on each side.
+- A **judgement layer** on every braid, recording the reader's confidence in each pairing. A thumbs-up **approves** a pairing, raising it to full confidence and rendering it as an underline rather than a highlight; a thumbs-down records **graduated doubt**, each step knocking a quarter off the confidence, up to four steps; and a **tentative** type, in grey, marks a locus the reader is unsure of and means to revisit. Low-confidence braids are drawn in a fainter half-tone, with user-definable confidence bands and the percentage shown on hover.
 
 ## Theoretical background
 
@@ -57,11 +58,7 @@ Next.js, React, TypeScript, Tailwind, CodeMirror, jsdiff, and jsPDF. The collati
 
 ## Status
 
-Version 0.7.x. Source code and text modes are live, with the two collation engines (CX and TX), the transposition braid, the five variant types plus fuzzy variant, word-level refinement, the overview minimap, a project workbench (sources, folders, per-panel editing, undo/redo), an auto-generated critical apparatus with a quantitative deep-dive, and export to Markdown, TEI P5, PDF, and JSON. Support for three or more witnesses is a later phase. See the repository for the current state of each capability.
-
-## In preparation
-
-Two refinements to how a reader records judgement on the braid are planned. A per-locus **confidence control** on the variant toolbar, a downthumb that lowers a ribbon's confidence in steps (one click reduces it by a quarter, two by a half), with the reduction shown as a two-tone shade on the button. And a **tentative** variant type, marked in grey, for loci a reader wants to flag as uncertain and return to later, distinct from the settled additions, deletions, substitutions, and transpositions.
+Version 0.7.x. Source code and text modes are live, with the two collation engines (CX and TX), the transposition braid, the five variant types plus fuzzy variant, the judgement layer (approve, graduated doubt, tentative), word-level refinement, the overview minimap, a project workbench (sources, folders, per-panel editing, undo/redo), an auto-generated critical apparatus with a quantitative deep-dive, and export to Markdown, TEI P5, PDF, and JSON. Support for three or more witnesses is a later phase. See the repository for the current state of each capability.
 
 ## Siblings
 
