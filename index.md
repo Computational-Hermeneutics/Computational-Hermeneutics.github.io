@@ -104,6 +104,6 @@ The tools operationalise commitments developed across critical code studies, tex
 
 ## Using the tools
 
-Each repository contains full documentation, dependencies, and setup instructions. Tools are research tools and are offered as-is under permissive licences. If Computational Hermeneutics tools support published research, please cite the specific tool and version, and cite the relevant scholarship where the methods being applied are developed.
+Each repository contains full documentation, dependencies, and setup instructions. The tools are offered as-is under permissive licences. If Computational Hermeneutics tools support published research, please cite the specific tool and version, and cite the relevant scholarship where the methods being applied are developed.
 
 {% include mermaid.html %}
