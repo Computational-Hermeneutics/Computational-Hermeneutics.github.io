@@ -9,7 +9,7 @@ title: CCS Workbench
 <img src="/assets/images/tools/ccs-wb.svg" alt="" class="tool-icon-lg">
 <div>
 <h1>CCS Workbench</h1>
-<p class="object"><em>Register:</em> close reading. <em>Object:</em> a single artefact of code.</p>
+<p class="object"><em>Method:</em> close reading. <em>Object:</em> a single artefact of code.</p>
 <p><a href="https://ccs-wb.vercel.app">ccs-wb.vercel.app</a> · <a href="https://github.com/Computational-Hermeneutics/CCS-WB">github.com/Computational-Hermeneutics/CCS-WB</a> · <a href="/tools.html">All tools</a></p>
 </div>
 </div>
@@ -46,4 +46,4 @@ Version 5.1.x, CCS methodology v2.7. The three modes are live, with the unified 
 
 ## Siblings
 
-[Source Variorum](/tools/source-variorum.html) takes the collation register, setting two or more witnesses side by side and reading the movement between them. A locus of divergence flagged by Source Variorum is exactly the place where the Workbench's close reading is most rewarded.
+[Source Variorum](/tools/source-variorum.html) takes the collation method, setting two or more witnesses side by side and reading the movement between them. A locus of divergence flagged by Source Variorum is exactly the place where the Workbench's close reading is most rewarded.

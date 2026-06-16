@@ -72,9 +72,9 @@ The commitment is to the local and the legible. Where so much computational anal
 
 ## How the tools relate
 
-The two registers are complementary. Close reading opens a single artefact at depth: the CCS Workbench reads a body of code through annotation, critique, and interpretation, recovering the cultural and technical work that a piece of software performs. Collation works across witnesses: Source Variorum sets two or more versions of a text side by side and reads the movement between them, the additions, deletions, substitutions, and transpositions that constitute its textual history.
+The two methods are complementary. Close reading opens a single artefact at depth: the CCS Workbench reads a body of code through annotation, critique, and interpretation, recovering the cultural and technical work that a piece of software performs. Collation works across witnesses: Source Variorum sets two or more versions of a text side by side and reads the movement between them, the additions, deletions, substitutions, and transpositions that constitute its textual history.
 
-A finding surfaced in one register sharpens the other. A locus of divergence flagged by a collation is exactly the place where close reading is most rewarded; an interpretation developed through close reading tells you which variants matter and why. The annotation layer is deliberately shared between the tools so that a reading made in one can travel to the other.
+A finding surfaced in one method sharpens the other. A locus of divergence flagged by a collation is exactly the place where close reading is most rewarded; an interpretation developed through close reading tells you which variants matter and why. The annotation layer is deliberately shared between the tools so that a reading made in one can travel to the other.
 
 The two tools are the first of a family. Further tools extending the same posture to concordance, witness relations, and paratext are in preparation.
 

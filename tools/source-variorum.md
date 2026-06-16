@@ -9,7 +9,7 @@ title: Source Variorum
 <img src="/assets/images/tools/source-variorum.svg" alt="" class="tool-icon-lg">
 <div>
 <h1>Source Variorum</h1>
-<p class="object"><em>Register:</em> collation. <em>Object:</em> two or more witnesses of a text, code or prose.</p>
+<p class="object"><em>Method:</em> collation. <em>Object:</em> two or more witnesses of a text, code or prose.</p>
 <p><a href="https://sourcevariorum.vercel.app">sourcevariorum.vercel.app</a> · <a href="https://github.com/Computational-Hermeneutics/Source-Variorum">github.com/Computational-Hermeneutics/Source-Variorum</a> · <a href="/tools.html">All tools</a></p>
 </div>
 </div>
@@ -62,4 +62,4 @@ Version 0.7.x. Source code and text modes are live, with the two collation engin
 
 ## Siblings
 
-[CCS Workbench](/tools/ccs-wb.html) takes the close-reading register, opening a single artefact of code for annotation and interpretation. The two tools share an annotation layer, so a reading made over a single witness in the Workbench can be brought to bear on the loci of divergence that Source Variorum surfaces.
+[CCS Workbench](/tools/ccs-wb.html) takes the close-reading method, opening a single artefact of code for annotation and interpretation. The two tools share an annotation layer, so a reading made over a single witness in the Workbench can be brought to bear on the loci of divergence that Source Variorum surfaces.
