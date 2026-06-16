@@ -9,7 +9,7 @@ Text is written, copied, edited, forked, and revised. So is code. Both carry var
 
 Computational Hermeneutics is an attempt to bring them together. The tools here treat computational artefacts as objects of reading rather than only of execution or measurement, that is, code as a cultural text, the corpus as a field of witnesses, the generated output as a text with a provenance. The tools are local-first, interpretively powerful, and built for close reading rather than distant measurement.
 
-There are currently two tools. The close-reading tool opens a single artefact for intensive interpretation. The collation tool sets witnesses side by side and reads the differences between them. The first tool supplies depth of interpretation; the second supplies the comparative ground on which textual and critical claims can be made.
+There are currently two tools. The close-reading tool opens a single artefact for intensive interpretation. The comparative-analysis tool sets witnesses side by side and reads the differences between them. The first tool supplies depth of interpretation; the second supplies the comparative ground on which textual and critical claims can be made.
 
 </section>
 
@@ -21,7 +21,7 @@ graph TB
     C["CCS-WB\ncode as cultural text"]
   end
 
-  subgraph collation["Collation (multiple witnesses)"]
+  subgraph collation["Comparative analysis (multiple witnesses)"]
     S["Source Variorum\nwitnesses side by side"]
   end
 
@@ -48,8 +48,7 @@ graph TB
 
 </div>
 
-### Collation
-
+### Comparative analysis
 <div class="tools-grid">
 
 <article class="tool-card comparative">
@@ -72,7 +71,7 @@ The commitment is to the local and the legible. Where so much computational anal
 
 ## How the tools relate
 
-The two methods are complementary. Close reading opens a single artefact at depth: the CCS Workbench reads a body of code through annotation, critique, and interpretation, recovering the cultural and technical work that a piece of software performs. Collation works across witnesses: Source Variorum sets two or more versions of a text side by side and reads the movement between them, the additions, deletions, substitutions, and transpositions that constitute its textual history.
+The two methods are complementary. Close reading opens a single artefact at depth: the CCS Workbench reads a body of code through annotation, critique, and interpretation, recovering the cultural and technical work that a piece of software performs. Comparative analysis works across witnesses: Source Variorum sets two or more versions of a text side by side and reads the movement between them, the additions, deletions, substitutions, and transpositions that constitute its textual history.
 
 A finding surfaced in one method sharpens the other. A locus of divergence flagged by a collation is exactly the place where close reading is most rewarded; an interpretation developed through close reading tells you which variants matter and why. The annotation layer is deliberately shared between the tools so that a reading made in one can travel to the other.
 

@@ -5,7 +5,7 @@ title: Tools
 
 # Tools
 
-A brief guide to each tool. Follow the **Deep dive** link on any tool for its extended page with operations, theoretical background, and status. The close-reading method opens a single artefact for intensive interpretation; the collation method sets witnesses side by side.
+A brief guide to each tool. Follow the **Deep dive** link on any tool for its extended page with operations, theoretical background, and status. The close-reading method opens a single artefact for intensive interpretation; comparative analysis sets witnesses side by side.
 
 ---
 
@@ -30,15 +30,14 @@ The Critical Code Studies Workbench is a web application for the close reading a
 
 ---
 
-## Collation
-
+## Comparative analysis
 <section class="tool-entry comparative">
 
 <div class="tool-entry-head">
 <img src="/assets/images/tools/source-variorum.svg" alt="" class="tool-icon-lg">
 <div>
 <h2><a href="/tools/source-variorum.html">Source Variorum</a></h2>
-<p class="object"><em>Method:</em> collation. <em>Object:</em> two or more witnesses of a text, code or prose.</p>
+<p class="object"><em>Method:</em> comparative analysis. <em>Object:</em> two or more witnesses of a text, code or prose.</p>
 <p><a href="/tools/source-variorum.html">Deep dive</a> · <a href="https://sourcevariorum.vercel.app">sourcevariorum.vercel.app</a> · <a href="https://github.com/Computational-Hermeneutics/Source-Variorum">github.com/Computational-Hermeneutics/Source-Variorum</a></p>
 </div>
 </div>

@@ -9,14 +9,14 @@ title: Source Variorum
 <img src="/assets/images/tools/source-variorum.svg" alt="" class="tool-icon-lg">
 <div>
 <h1>Source Variorum</h1>
-<p class="object"><em>Method:</em> collation. <em>Object:</em> two or more witnesses of a text, code or prose.</p>
+<p class="object"><em>Method:</em> comparative analysis. <em>Object:</em> two or more witnesses of a text, code or prose.</p>
 <p><a href="https://sourcevariorum.vercel.app">sourcevariorum.vercel.app</a> · <a href="https://github.com/Computational-Hermeneutics/Source-Variorum">github.com/Computational-Hermeneutics/Source-Variorum</a> · <a href="/tools.html">All tools</a></p>
 </div>
 </div>
 
 </section>
 
-Source Variorum is a side-by-side textual collation workbench. A *variorum*, from *cum notis variorum*, "with the notes of various people", is a work of textual criticism that collates all known variants of a text and sets them side by side, so that a reader can track how textual decisions have been made in preparing a text for publication. Source Variorum brings that apparatus to computational close reading. It is the collation tool of the Computational Hermeneutics family.
+Source Variorum is a side-by-side textual collation workbench. A *variorum*, from *cum notis variorum*, "with the notes of various people", is a work of textual criticism that collates all known variants of a text and sets them side by side, so that a reader can track how textual decisions have been made in preparing a text for publication. Source Variorum brings that apparatus to computational close reading. It is the comparative-analysis tool of the Computational Hermeneutics family.
 
 ## Why Source Variorum
 

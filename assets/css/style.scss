@@ -5,7 +5,7 @@
 // Light is default; dark is activated by html[data-theme="dark"].
 // Palette is that of a critical edition: aged-parchment grounds, sepia ink,
 // rubric oxblood as the primary brand and link colour, antique gold for the
-// close-reading method, and manuscript lapis for the collation method.
+// close-reading method, and manuscript lapis for the comparative-analysis method.
 
 :root {
   --ch-bg: #fcfbf7;                          /* near-white, faint warmth */
@@ -17,7 +17,7 @@
   --ch-blue-hover: #9c3a36;
   --ch-blue-underline: rgba(124, 33, 40, 0.3);
   --ch-sand: #9c7c34;                        /* antique gold, close-reading method */
-  --ch-burgundy: #2f4a6b;                    /* manuscript lapis, collation method */
+  --ch-burgundy: #2f4a6b;                    /* manuscript lapis, comparative-analysis method */
   --ch-rule: #e0d6bf;                        /* soft parchment rule */
   --ch-card-shadow: 0 2px 12px rgba(80, 50, 20, 0.10);
 }

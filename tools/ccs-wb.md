@@ -46,4 +46,4 @@ Version 5.1.x, CCS methodology v2.7. The three modes are live, with the unified 
 
 ## Siblings
 
-[Source Variorum](/tools/source-variorum.html) takes the collation method, setting two or more witnesses side by side and reading the movement between them. A locus of divergence flagged by Source Variorum is exactly the place where the Workbench's close reading is most rewarded.
+[Source Variorum](/tools/source-variorum.html) takes the comparative-analysis method, setting two or more witnesses side by side and reading the movement between them. A locus of divergence flagged by Source Variorum is exactly the place where the Workbench's close reading is most rewarded.
