@@ -58,7 +58,11 @@ Next.js, React, TypeScript, Tailwind, CodeMirror, jsdiff, and jsPDF. The collati
 
 ## Status
 
-Version 0.7.x. Source code and text modes are live, with the two collation engines (CX and TX), the transposition braid, the five variant types plus fuzzy variant, the judgement layer (approve, graduated doubt, tentative), word-level refinement, the overview minimap, a project workbench (sources, folders, per-panel editing, undo/redo), an auto-generated critical apparatus with a quantitative deep-dive, and export to Markdown, TEI P5, PDF, and JSON. Support for three or more witnesses is a later phase. See the repository for the current state of each capability.
+Version 0.9.x ([first release](https://github.com/Computational-Hermeneutics/Source-Variorum/releases/tag/v0.9.3)). Source code and text modes are live, with the two collation engines (CX and TX), the transposition braid, the five variant types plus fuzzy variant, the judgement layer (approve, graduated doubt, tentative), word-level refinement and precise manual hand-braiding, the overview minimap, a project workbench (sources, folders, per-panel editing, undo/redo), analysis views (stemma / distance tree, dotplot, change-overview histogram, witness statistics), an auto-generated critical apparatus with a quantitative deep-dive, and export to Markdown, TEI P5, PDF, and JSON. Support for three or more witnesses is a later phase. See the repository for the current state of each capability.
+
+## Licence
+
+GNU General Public License v3.0 or later (GPL-3.0-or-later), © 2026 David M. Berry. Source Variorum was previously released under the MIT License; as sole copyright holder David M. Berry has relicensed the project, including all prior versions, under GPL-3.0-or-later.
 
 ## Siblings
 
