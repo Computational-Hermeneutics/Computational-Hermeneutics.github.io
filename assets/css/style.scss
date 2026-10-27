@@ -46,6 +46,23 @@ $sans: "EB Garamond", "Garamond", Georgia, serif;
 
 html, body { margin: 0; padding: 0; }
 
+// Keyboard focus ring for links, nav, cards and the theme toggle.
+:focus-visible {
+  outline: 2px solid var(--ch-blue);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+// Honour reduced-motion: drop transitions and hover transforms.
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0.001ms !important;
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 body {
   background: var(--ch-bg);
   color: var(--ch-text);
