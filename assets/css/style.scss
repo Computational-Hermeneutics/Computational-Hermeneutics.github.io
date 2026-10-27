@@ -504,7 +504,42 @@ hr { border: 0; border-top: 1px solid var(--ch-rule); margin: 3rem 0; }
   &.comparative h2 { color: var(--ch-burgundy); }
 }
 
-// Mermaid
+// Family diagram (static SVG; themes via tokens)
+
+.ch-diagram-wrap {
+  margin: 1.5rem 0 2rem;
+  padding: 0;
+}
+
+.ch-diagram {
+  display: block;
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  margin: 0 auto;
+
+  .dgm-cluster { fill: var(--ch-surface-alt); stroke: var(--ch-rule); stroke-width: 1; }
+  .dgm-node { fill: var(--ch-surface); stroke-width: 1.4; }
+  .node-read { stroke: var(--ch-sand); }
+  .node-coll { stroke: var(--ch-burgundy); }
+
+  .dgm-cluster-label {
+    fill: var(--ch-muted);
+    font-family: $sans;
+    font-size: 13px;
+    font-weight: 600;
+    font-variant: small-caps;
+    letter-spacing: 0.06em;
+  }
+  .node-title { fill: var(--ch-text); font-family: $display; font-size: 17px; font-weight: 600; }
+  .node-sub { fill: var(--ch-muted); font-family: $serif; font-size: 13px; font-style: italic; }
+
+  .dgm-edge { fill: none; stroke: var(--ch-muted); stroke-width: 1.3; stroke-dasharray: 4 3; }
+  .dgm-arrow { fill: var(--ch-muted); }
+  .dgm-edge-label { fill: var(--ch-muted); font-family: $serif; font-size: 13px; }
+}
+
+// Mermaid (legacy; no diagrams use it now)
 
 .mermaid {
   background: var(--ch-surface);

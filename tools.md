@@ -56,4 +56,3 @@ The naming grammar borrows from the vocabulary of textual scholarship:
 - <strong>Variorum</strong>: an edition that collates the variants of a text and records, in an apparatus, the notes of its various readers.
 - <strong>Witness</strong>, <strong>siglum</strong>, <strong>apparatus</strong>: the terms of art the tools make operable on computational material.
 
-{% include mermaid.html %}

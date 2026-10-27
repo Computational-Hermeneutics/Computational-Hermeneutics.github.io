@@ -15,24 +15,34 @@ There are currently two tools. The close-reading tool opens a single artefact fo
 
 ## The family
 
-<div class="mermaid">
-graph TB
-  subgraph reading["Close reading (single artefact)"]
-    C["CCS-WB\ncode as cultural text"]
-  end
+<figure class="ch-diagram-wrap" role="group" aria-label="The family: close reading and comparative analysis">
+<svg class="ch-diagram" viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="dgm-title dgm-desc">
+  <title id="dgm-title">The two methods of the family</title>
+  <desc id="dgm-desc">Close reading of a single artefact, done by CCS Workbench, and comparative analysis of multiple witnesses, done by Source Variorum, linked by a shared annotation layer and by loci for close reading.</desc>
+  <defs>
+    <marker id="dgm-head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path class="dgm-arrow" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
 
-  subgraph collation["Comparative analysis (multiple witnesses)"]
-    S["Source Variorum\nwitnesses side by side"]
-  end
+  <rect class="dgm-cluster" x="16" y="16" width="608" height="132" rx="8"/>
+  <text class="dgm-cluster-label" x="36" y="42">Close reading · single artefact</text>
+  <rect class="dgm-node node-read" x="200" y="62" width="240" height="72" rx="6"/>
+  <text class="node-title" x="320" y="94" text-anchor="middle">CCS Workbench</text>
+  <text class="node-sub" x="320" y="116" text-anchor="middle">code as cultural text</text>
 
-  C -.shared annotation layer.-> S
-  S -.loci for close reading.-> C
+  <rect class="dgm-cluster" x="16" y="232" width="608" height="132" rx="8"/>
+  <text class="dgm-cluster-label" x="36" y="258">Comparative analysis · multiple witnesses</text>
+  <rect class="dgm-node node-coll" x="200" y="278" width="240" height="72" rx="6"/>
+  <text class="node-title" x="320" y="310" text-anchor="middle">Source Variorum</text>
+  <text class="node-sub" x="320" y="332" text-anchor="middle">witnesses side by side</text>
 
-  classDef reading fill:#ffffff,stroke:#b8862e,color:#1a1a1a,stroke-width:1.2px;
-  classDef collation fill:#ffffff,stroke:#3563a8,color:#1a1a1a,stroke-width:1.2px;
-  class C reading;
-  class S collation;
-</div>
+  <path class="dgm-edge" d="M250,134 L250,276" marker-end="url(#dgm-head)"/>
+  <path class="dgm-edge" d="M390,278 L390,136" marker-end="url(#dgm-head)"/>
+  <text class="dgm-edge-label" x="238" y="190" text-anchor="end">shared annotation layer</text>
+  <text class="dgm-edge-label" x="402" y="208" text-anchor="start">loci for close reading</text>
+</svg>
+</figure>
 
 ### Close reading
 
@@ -105,4 +115,3 @@ The tools operationalise commitments developed across critical code studies, tex
 
 Each repository contains full documentation, dependencies, and setup instructions. The tools are offered as-is under permissive licences. If Computational Hermeneutics tools support published research, please cite the specific tool and version, and cite the relevant scholarship where the methods being applied are developed.
 
-{% include mermaid.html %}
