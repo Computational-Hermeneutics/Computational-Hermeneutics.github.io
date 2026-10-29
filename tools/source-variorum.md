@@ -11,6 +11,7 @@ title: Source Variorum
 <h1>Source Variorum</h1>
 <p class="object"><em>Method:</em> comparative analysis. <em>Object:</em> two or more witnesses of a text, code or prose.</p>
 <p><a href="https://sourcevariorum.vercel.app">sourcevariorum.vercel.app</a> · <a href="https://github.com/Computational-Hermeneutics/Source-Variorum">github.com/Computational-Hermeneutics/Source-Variorum</a> · <a href="/tools.html">All tools</a></p>
+<p class="tool-doi"><a href="https://doi.org/10.5281/zenodo.23763287"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.23763287.svg" alt="DOI 10.5281/zenodo.23763287"></a></p>
 </div>
 </div>
 

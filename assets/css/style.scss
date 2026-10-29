@@ -463,6 +463,12 @@ hr { border: 0; border-top: 1px solid var(--ch-rule); margin: 3rem 0; }
       display: block;
     }
   }
+
+  .tool-doi {
+    margin: 0.5rem 0 0;
+    img { height: 20px; display: inline-block; vertical-align: middle; border: 0; }
+    a { border-bottom: 0; }
+  }
 }
 
 // Tool entries (tools.md)
