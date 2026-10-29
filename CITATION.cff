@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you refer to the Computational Hermeneutics family or its hub, please cite it as below."
+type: software
+title: "Computational Hermeneutics: Research Tools for Computational Close Reading"
+abstract: >
+  The Computational Hermeneutics family landing site and map. Computational
+  Hermeneutics is a family of research tools that bring the apparatus of textual
+  criticism and interpretation to computational artefacts, to code as much as to
+  text. The hub documents the family and links to each instrument.
+authors:
+  - family-names: Berry
+    given-names: David M.
+    orcid: "https://orcid.org/0000-0002-7737-5586"
+    affiliation: "University of Sussex"
+repository-code: "https://github.com/Computational-Hermeneutics/Computational-Hermeneutics.github.io"
+url: "https://computational-hermeneutics.github.io"
+license: GPL-3.0-or-later
+version: "1.0.0"
+date-released: "2026-10-29"
+keywords:
+  - computational hermeneutics
+  - critical code studies
+  - textual criticism
+  - digital humanities
+  - close reading

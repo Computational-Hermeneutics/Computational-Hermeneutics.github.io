@@ -37,3 +37,7 @@ oxblood as the primary brand and link colour, antique gold for the close-reading
 method, and manuscript lapis for the comparative-analysis method.
 
 Maintained by [David M. Berry](https://github.com/dmberry).
+
+## Licence
+
+GNU General Public License v3.0 or later (GPL-3.0-or-later), © 2026 David M. Berry. See [LICENSE](LICENSE).
