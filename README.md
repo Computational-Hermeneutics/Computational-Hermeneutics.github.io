@@ -6,6 +6,12 @@ interpretation to computational artefacts, to code as much as to text.
 
 Published at **[computational-hermeneutics.github.io](https://computational-hermeneutics.github.io)**.
 
+[![DOI](https://zenodo.org/badge/1268307294.svg)](https://doi.org/10.5281/zenodo.23764646)
+
+## Citation
+
+Archived on Zenodo. The concept DOI [10.5281/zenodo.23764646](https://doi.org/10.5281/zenodo.23764646) always resolves to the latest version; version 1.0.0 is archived at [10.5281/zenodo.23764647](https://doi.org/10.5281/zenodo.23764647). Full citation metadata is in [CITATION.cff](CITATION.cff).
+
 ## Build
 
 A Jekyll site, built and served by GitHub Pages. No local toolchain is

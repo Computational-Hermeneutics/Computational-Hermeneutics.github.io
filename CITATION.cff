@@ -12,6 +12,7 @@ authors:
     given-names: David M.
     orcid: "https://orcid.org/0000-0002-7737-5586"
     affiliation: "University of Sussex"
+doi: 10.5281/zenodo.23764646
 repository-code: "https://github.com/Computational-Hermeneutics/Computational-Hermeneutics.github.io"
 url: "https://computational-hermeneutics.github.io"
 license: GPL-3.0-or-later
